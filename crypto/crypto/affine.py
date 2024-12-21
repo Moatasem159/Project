@@ -24,8 +24,6 @@ def affine_encryption(plain_text, a, b):
             cipher_text += char
     return cipher_text
 
-
-
 import math
 alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 def mod_inverse(a, m):

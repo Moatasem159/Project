@@ -23,8 +23,8 @@ def process_text():
             if mode == 'encrypt':
                 result = affine.affine_encryption(text, a,b)
             elif mode == 'decrypt':
-             #   l1,l2=affine.most_two_letters_used(text)
-             #   a,b=affine.getKey(l1,l2)
+            #l1,l2=affine.most_two_letters_used(text)
+            #a,b=affine.getKey(l1,l2)
                 result = affine.affine_decryption(text, a,b)
         elif cipher == 'auto key':
             key = key_entry1.get()
